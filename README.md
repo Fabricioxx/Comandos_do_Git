@@ -16,7 +16,10 @@ _sequência para fazer um commit_
 >
 >git push -u origin master  ou  git push
 
+_puxar dados do repositorio remoto_
+>git clone htps://github.com/123456/123456.git
 >
+>git pull
 
 
 
