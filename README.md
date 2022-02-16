@@ -1,5 +1,8 @@
 # Comandos-do-Git
-Comandos mais utilizados do git.
+### Comandos mais utilizados do git.
+
+---------------------------------------------------------------
+
 
 _criar um repositorio local ,  add(alterar) nome e email_
 >git init
