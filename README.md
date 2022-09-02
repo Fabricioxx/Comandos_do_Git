@@ -24,6 +24,15 @@ _puxar dados do repositorio remoto_
 >
 >git pull
 
+_ver configuração do repositorio local_
+
+> git config --global --list  ( listar nome e email do usuario configurado )
+>
+>git config user.name (mostrar nome configurado )
+>
+>git remote -v (mostrar nome do repositorio )
+>
+>git log ( ver historico de commits )
 
 
 
