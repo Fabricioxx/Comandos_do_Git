@@ -18,6 +18,9 @@ _sequência para fazer um commit_
 >git commit -m "mensagem sobre auteraçoes"
 >
 >git push -u origin master  ou  git push
+>
+>git push --set-upstream origin main ( se der problema ao enviar para o repositorio remoto )git 
+
 
 _puxar dados do repositorio remoto_
 >git clone htps://github.com/123456/123456.git
