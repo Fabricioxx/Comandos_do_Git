@@ -37,6 +37,11 @@ _ver configuração do repositorio local_
 >
 >git log ( ver historico de commits )
 
+_checkout de branch_
+
+> git checkout -b NOME-DA-NOVA-BRANCH ( nova  branch )
+>
+> git checkout -f nomeDaBranch - ( alterar entre branchs )
 
 
 
