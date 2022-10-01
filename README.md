@@ -39,14 +39,21 @@ _ver configuração do repositorio local_
 
 _checkout de branch_
 
-> git checkout -b NOME-DA-NOVA-BRANCH ( nova  branch )
+> git checkout -b nomeNovaBranch (criar nova  branch )
 >
 > git checkout -f nomeDaBranch - ( alterar entre branchs )
 
+_merge_ (unir a branch com master )
 
-
-
-
+> git checkout master - ( ir ate a main )
+>
+> git merge nomedabranch - ( une a brench com a master )
+>
+> git add .
+>
+> git commit -m"xxx"
+> 
+> git push origin master
 
 
 
