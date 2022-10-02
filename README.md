@@ -45,7 +45,7 @@ _checkout de branch_
 
 _merge_ (unir a branch com master )
 
-> git checkout master - ( ir ate a main )
+> git checkout main - ( ir ate a main )
 >
 > git merge nomedabranch - ( une a brench com a master )
 >
