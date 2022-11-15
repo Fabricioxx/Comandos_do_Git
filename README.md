@@ -37,11 +37,23 @@ _ver configuração do repositorio local_
 >
 >git log ( ver historico de commits )
 
+_checkout de branch_
 
+> git checkout -b nomeNovaBranch (criar nova  branch )
+>
+> git checkout -f nomeDaBranch - ( alterar entre branchs )
 
+_merge_ (unir a branch com master )
 
-
-
+> git checkout main - ( ir ate a main )
+>
+> git merge nomedabranch - ( une a brench com a master )
+>
+> git add .
+>
+> git commit -m"xxx"
+> 
+> git push origin master
 
 
 
