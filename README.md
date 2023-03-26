@@ -23,7 +23,7 @@ _sequência para fazer um commit_
 
 
 _puxar dados do repositorio remoto_
->git clone htps://github.com/123456/123456.git
+>git clone htps://github.com/123456/123456.git ou git clone <url_do_repositorio> --mirror ( clonar com todas as branchs )
 >
 >git pull
 
