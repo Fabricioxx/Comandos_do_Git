@@ -31,6 +31,8 @@ Puxar dados do repositório remoto
 >git pull
 >
 >git pull upstream main
+>
+>git pull origin main
 
 Ver configuração do repositório local
 
