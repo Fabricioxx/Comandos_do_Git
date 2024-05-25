@@ -1,33 +1,38 @@
 # Comandos-do-Git
-### Comandos mais utilizados do git.
+### Comandos mais utilizados do Git
 
 ---------------------------------------------------------------
 
+#### Criar um repositório local e adicionar/alterar nome e email
 
-_criar um repositorio local ,  add(alterar) nome e email_
 >git init
 >
->git config --global user.name "nome"  
->git config --global user.email "nome"@gmail.com.  
+>git config --global user.name "nome"
+>
+>git config --global user.email "nome@gmail.com"
 
-_sequência para fazer um commit_
+
+Sequência para fazer um commit
 >git status
 >
 >git add *
 >
->git commit -m "mensagem sobre auteraçoes"
+>git commit -m "mensagem sobre alterações"
 >
->git push -u origin master  ou  git push
+>git push -u origin master  # ou git push
 >
->git push --set-upstream origin main ( se der problema ao enviar para o repositorio remoto )git 
+>git push --set-upstream origin main //Para enviar este novo branch main para o repositório remoto e configurá-lo para rastrear automaticamente o branch remoto
 
 
-_puxar dados do repositorio remoto_
+
+Puxar dados do repositório remoto
 >git clone htps://github.com/123456/123456.git ou git clone <url_do_repositorio> --mirror ( clonar com todas as branchs )
 >
 >git pull
+>
+>git pull upstream main
 
-_ver configuração do repositorio local_
+Ver configuração do repositório local
 
 > git config --global --list  ( listar nome e email do usuario configurado )
 >
@@ -37,13 +42,13 @@ _ver configuração do repositorio local_
 >
 >git log ( ver historico de commits )
 
-_checkout de branch_
+Checkout de branch
 
 > git checkout -b nomeNovaBranch (criar nova  branch )
 >
 > git checkout -f nomeDaBranch - ( alterar entre branchs )
 
-_merge_ (unir a branch com master )
+Merge (unir a branch com main)
 
 > git checkout main - ( ir ate a main )
 >
